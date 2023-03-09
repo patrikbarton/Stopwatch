@@ -1,0 +1,66 @@
+/* Website Color */
+html {
+    background-color: rgb(45, 44, 44)
+}
+
+/* Font */
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* general alignment */
+.wrapp {
+
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 70px;
+
+
+}
+
+/*Timer color*/ 
+#doubleDot {
+    color: rgb(253, 253, 253);
+}
+
+#minutes,
+#seconds,
+#millieseconds {
+    color: rgb(253, 253, 253);
+
+}
+
+/*Button alignment*/
+.buttons {
+    height: 70px;
+    width: 310px;
+
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+
+
+}
+
+/*Button design*/
+.button {
+
+    margin: auto;
+    background-color: whitesmoke;
+    border: 1px;
+    border-style: outset;
+    border-color: lightgray;
+    border-radius: 1000px;
+    width: 70px;
+}
+
+/*Button Animations */
+.button:hover {
+    background: rgb(157, 157, 161);
+}
+
+.button:active {
+    background: rgb(93, 93, 93);
+    top: 2px;
+}
